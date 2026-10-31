@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Arijit Banerjee, BCA AI & ML student at Brainware University.">
+  <title>Arijit Banerjee | Portfolio</title>
+  <style>
+    :root { --bg:#08111f; --panel:#111f33; --cyan:#53e5ff; --muted:#b8c6d9; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0; font-family:Arial,Helvetica,sans-serif; color:#f5f8ff;
+      background:radial-gradient(circle at top right,#172d50 0,transparent 38%),var(--bg);
+      line-height:1.65;
+    }
+    header { text-align:center; padding:58px 20px 42px; }
+    .avatar {
+      width:170px; height:170px; object-fit:cover; object-position:center 28%;
+      border-radius:50%; border:4px solid var(--cyan);
+      box-shadow:0 0 28px #53e5ff55;
+    }
+    h1 { margin:18px 0 4px; font-size:clamp(2rem,6vw,3.2rem); letter-spacing:1px; }
+    .tagline { color:var(--cyan); margin:0; }
+    nav { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; padding:14px; background:#0d1a2b; position:sticky; top:0; }
+    nav a,.button {
+      color:var(--cyan); text-decoration:none; border:1px solid #31516e;
+      border-radius:999px; padding:8px 14px;
+    }
+    nav a:hover,.button:hover { background:#19334d; }
+    main { width:min(920px,92%); margin:28px auto 55px; }
+    section { background:var(--panel); border:1px solid #243b57; border-radius:18px; padding:24px; margin:20px 0; }
+    h2 { color:var(--cyan); margin-top:0; }
+    .details { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+    .detail { background:#0b1728; padding:14px; border-radius:12px; overflow-wrap:anywhere; }
+    .muted { color:var(--muted); }
+    li { margin:7px 0; }
+    .links { display:flex; flex-wrap:wrap; gap:12px; }
+    footer { text-align:center; padding:24px; color:var(--muted); background:#060c15; }
+    @media(max-width:520px) { section { padding:18px; } .avatar { width:145px;height:145px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="avatar" src="profile.jpg" alt="Arijit Banerjee profile photo">
+    <h1>ARIJIT BANERJEE</h1>
+    <p class="tagline">BCA (AI &amp; ML) Student | Technology Enthusiast</p>
+    <p class="muted">Learn • Build • Innovate • Grow</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a><a href="#education">Education</a>
+    <a href="#interests">Interests</a><a href="#goals">Goals</a><a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Arijit Banerjee, a first-year Bachelor of Computer Applications student
+      specializing in Artificial Intelligence and Machine Learning. I enjoy learning new
+      skills, exploring technology and building useful projects.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="details">
+        <div class="detail"><strong>Name</strong><br>Arijit Banerjee</div>
+        <div class="detail"><strong>Course</strong><br>Bachelor of Computer Applications in Artificial Intelligence and Machine Learning</div>
+        <div class="detail"><strong>University</strong><br>Brainware University</div>
+        <div class="detail"><strong>Year</strong><br>1st Year</div>
+      </div>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Continuous skill development and upgradation</li>
+        <li>Artificial Intelligence and Machine Learning</li>
+        <li>Programming and technology</li>
+        <li>Building practical solutions</li>
+      </ul>
+    </section>
+
+    <section id="goals">
+      <h2>Career Goals</h2>
+      <ul>
+        <li>Ethical Hacker</li>
+        <li>Web Developer</li>
+        <li>AI Solutions Architect</li>
+        <li>Applied Scientist</li>
+        <li>AI Research Scientist</li>
+      </ul>
+      <p class="muted">I aim to develop strong fundamentals and work toward these fields through
+      study, ethical practice and hands-on projects.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:arijitbanerjee807@gmail.com">arijitbanerjee807@gmail.com</a></p>
+      <p><strong>Alternate email:</strong> <a href="mailto:arijitbanerjee0907@gmail.com">arijitbanerjee0907@gmail.com</a></p>
+      <h3>Social profiles</h3>
+      <div class="links">
+        <a class="button" href="https://x.com/arijit0gdp" target="_blank" rel="noopener noreferrer">X</a>
+        <a class="button" href="https://www.instagram.com/_jack_kk_?cplk=ZWxqaTJyMWNxeW0y" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="button" href="https://www.linkedin.com/in/arijit-banerjee-7b280b446/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Arijit Banerjee · Personal Portfolio</footer>
+</body>
+</html>
